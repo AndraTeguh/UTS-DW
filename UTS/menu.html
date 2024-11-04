@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu - Pikokopi Cafe</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="nama-navbar">
+          <h1><a href="index.html" class="home-link">Pikokopi Cafe</a></h1>
+        </div>
+        <nav class="navbar">
+          <ul id="navbar-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="promo.html">Promo</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section id="menu">
+      <section class="content">
+        <div class="container">
+          <h3>Jelajahi Menu Unggulan Kami</h3>
+          <p>Menyediakan berbagai pilihan kopi, non-kopi, teh, dan makanan ringan.</p>
+
+          <div class="category-buttons">
+            <button class="category-button" data-category="kopi">Kopi</button>
+            <button class="category-button" data-category="teh">Teh</button>
+            <button class="category-button" data-category="snack">Snack</button>
+            <button class="category-button" data-category="makanan">Makanan</button>
+          </div>
+
+          <div class="card-container">
+            <div class="category kopi">
+              <div class="card">
+                <img src="americano.png" alt="Americano" />
+                <h4>Ice Americano</h4>
+              </div>
+              <div class="card">
+                <img src="espresso.png" alt="Espresso" />
+                <h4>Espresso</h4>
+              </div>
+              <div class="card">
+                <img src="caramellate.png" alt="Caramellatte" />
+                <h4>Caramellatte</h4>
+              </div>
+            </div>
+
+            <div class="category teh hidden">
+              <div class="card">
+                <img src="leci.png" alt="leci tea" />
+                <h4>lychee Tea</h4>
+              </div>
+              <div class="card">
+                <img src="kiwi.png" alt="Kiwi Fruit Tea" />
+                <h4>Kiwi FruitTea</h4>
+              </div>
+              <div class="card">
+                <img src="milk.png" alt="Milk Tea" />
+                <h4>Milk Tea</h4>
+              </div>
+            </div>
+
+            <div class="category snack hidden">
+              <div class="card">
+                <img src="cireng.png" alt="Cireng" />
+                <h4>Cireng</h4>
+              </div>
+              <div class="card">
+                <img src="kentang.png" alt="French Fries" />
+                <h4>French Fries</h4>
+              </div>
+              <div class="card">
+                <img src="nugget.png" alt="Nuggets" />
+                <h4>Nuggets</h4>
+              </div>
+            </div>
+
+            <div class="category makanan hidden">
+              <div class="card">
+                <img src="ramen.png" alt="Ramen Rumahan" />
+                <h4>Ramen Rumahan</h4>
+              </div>
+              <div class="card">
+                <img src="ayam.png" alt="Nasi Paket Ayam" />
+                <h4>Nasi Paket Ayam</h4>
+              </div>
+              <div class="card">
+                <img src="daging.png" alt="Nasi Paket Sapi" />
+                <h4>Nasi Paket Sapi</h4>
+              </div>
+            </div>
+          </div>
+
+          <div class="pagination">
+            <button class="prev" onclick="showPrev()">Previous</button>
+            <button class="next" onclick="showNext()">Next</button>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <footer>
+      <section id="kontak">
+        <div class="container">
+          <p><strong>Kontak Kami :</strong></p>
+          <p>Jl. Sukamaju No. 1A</p>
+          <p>pikokopi@gmail.com</p>
+          <p>0812 - 3456 - 789</p>
+          <p>Copyright &copy; 2024 PT. BangunTidurTerusMandi.</p>
+        </div>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
