@@ -1,3 +1,5 @@
+Topik yang saya pilih yaitu e-commerce dimana saya membuat halaman web untuk sebuah coffeeshop fiksi
+buatan saya sendiri yaitu pikokopi cafe, yang digunakan untuk menyediakan informasi tentang cafe tsb.
 Pada file index.html merupakan halaman depan dari halaman web ini, yang menggunakan animasi on
 scrolling yang diterapkan pada javascriptnya. Lalu pada file menu.html merupakan halaman menu yang
 berisikan berbagai menu dari kategori makanan dan minuman, yang dikelola oleh javascript animasinya
